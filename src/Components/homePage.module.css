@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#homePage{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(8, 8, 24);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+#homePage>a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-shadow: 0px 0px 10px purple;
+    font-weight: bold;
+}
+#createUser{
+    height: 84vh;
+    width: 100%;
+    background-color: rgb(8, 8, 24);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#createUser>form{
+    height: 350px;
+    width: 300px;
+    border:  1px solid white;
+    border-radius: 15px; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 25px;
+}
+#createUser>form:hover{
+    box-shadow: 0px 0px 15px white;
+}
+#createUser>form>label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-shadow: 0px 0px 10px purple;
+}
+#createUser>form>input{
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 0.2px solid rgb(119,123,128);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+#createUser>form>input:hover{
+    box-shadow: 0px 1px 9px rgb(119,123,128);
+}
+#createUser>form>input:focus{
+    outline: none;
+}
+#createUser>form>button{
+    background-color: transparent;
+    border: 1px solid rgb(119,123,128);
+    border-radius: 10px;
+    padding: 7px 20px;
+    color: white;
+}
+#createUser>form>button:hover{
+    box-shadow: 0px 0px 10px white;
+    cursor: pointer;
+}
+
+#userHome{
+    height: 84vh;
+    width: 100%;
+    background-color:rgb(8, 8, 24);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#userHome>div{
+    height: 230px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px white;
+    color: white;
+}
+#userHome>div:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+#userHome>div>table>tr>td,th{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+#userHome>div>table>tr>td>button{
+    height: 30px;
+    width: 60px;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    font-size: 12px;
+    /* padding: 10px; */
+}
+#userHome>div>table>tr>td>button>a{
+    color: white;
+    text-decoration: none;
+}
+#userHome>div>table>tr>td>button:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    letter-spacing: 7px;
+}
+
+
